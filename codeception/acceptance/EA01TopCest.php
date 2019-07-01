@@ -80,6 +80,7 @@ class EA01TopCest
         // $I->goToAdminPage();
 
         // お知らせの記事をクリックすると設定されたURLに遷移することを確認
+        //test
         $I->switchToIFrame('information');
         $I->click(['css' => '.news_area .link_list .tableish a:nth-child(1)']);
         $I->switchToNewWindow();
